@@ -1,0 +1,27 @@
+
+body {
+  background-color: oldlace;
+  text-align: center;
+}
+
+a {
+  color: salmon;
+  text-decoration: none;
+}
+
+ul {
+  list-style: georgian;
+  display: inline-block;
+  text-align: center;
+}
+
+@font-face {
+  font-family: monumentextended;
+  src: url(fonts/monumentextended-regular.otf);
+}
+
+h1{
+  font-family: monumentextended;
+  font-size: 80px;
+  text-align: center;
+}
