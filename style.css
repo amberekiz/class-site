@@ -12,12 +12,6 @@ a {
   text-decoration: none;
 }
 
-ul {
-  list-style: georgian;
-  display: inline-block;
-  text-align: center;
-}
-
 @font-face {
   font-family: monumentextended;
   src: url(fonts/monumentextended-regular.otf);
