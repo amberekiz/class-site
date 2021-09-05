@@ -1,11 +1,14 @@
 
 body {
-  background-color: oldlace;
+  background-color: #f2f3f5;
+  background-image: url(images/gradient_1.gif);
+  background-repeat: no-repeat;
+  background-position: center;
   text-align: center;
 }
 
 a {
-  color: salmon;
+  color: black;
   text-decoration: none;
 }
 
