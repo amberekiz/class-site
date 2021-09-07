@@ -1,23 +1,11 @@
 html {
-  background-image:linear-gradient(#fadbc7 80%, #fcf4e9 20%);
+  background-image:linear-gradient(#fadbc7, #fcf4e9);
   background-repeat: no-repeat;
   background-size: contain;
 }
 
-.bakery-img {
-  position: relative;
-  width: 50%;
-  display: block;
-  left: 300px;
+img {
   max-width: 100%;
-}
-
-.leaf-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 80%;
-  max-width: 100%
 }
 
 h1 {
@@ -27,6 +15,22 @@ h1 {
   font-family: 'Urbanist', sans-serif;
   color: #6c4334
 }
+
+.bakery-img {
+  position: relative;
+  width: 50%;
+  display: block;
+  left: 300px;
+}
+
+.leaf-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+
+}
+
 
 p {
   font-family: 'Roboto', sans-serif;

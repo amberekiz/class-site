@@ -1,0 +1,29 @@
+img {
+  max-width: 100%;
+}
+
+p {
+font-size: 30px;
+color: white;
+font-weight: bold;
+text-decoration: underline;
+text-align: justify;
+font-family: 'pp_eikothin', monospace;
+background: grey;
+border-radius: 20px;
+text-shadow: 5px 5px 5px;
+box-shadow: 5px 5px 5px salmon;
+}
+
+.rotate {
+  color: blue;
+  display: inline-block;
+  transform: scale(4);
+}
+
+@font-face {
+    font-family: 'pp_eikothin';
+    src: url('fonts/ppeiko-thin-webfont.woff2') format('woff2'),
+         url('fonts/ppeiko-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
