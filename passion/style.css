@@ -1,8 +1,11 @@
 * {
   box-sizing: border-box;
+  cursor: crosshair;
 }
 
+
 html {
+  background-color: #fcf4e9;
   background-image: linear-gradient(#fadbc7, #fcf4e9);
   background-repeat: no-repeat;
   background-size: contain;

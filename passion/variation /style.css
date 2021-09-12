@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+
+html {
+  background-color: #fcf4e9;
+  background-image: linear-gradient(#f4d4c6 90%, #fcf4e9 10%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+.bakery-img {
+  width: 50%;
+  position: relative;
+  display: block;
+  top: 100px;
+  left: 5px;
+}
+
+.leaf-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:50%;
+}
+
+h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 100px;
+  color: #4c3024;
+  display: block;
+  position: absolute;
+  left: 720px;
+  top: 120px;
+  letter-spacing: 2px;
+  line-height: 95px;
+}
+
+.intro {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 21px;
+  color: #4c3024;
+  display: block;
+  position: absolute;
+  left: 730px;
+  top: 410px;
+}
+
+a {
+  color: #4c3024;
+  text-decoration: underline dotted;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  color: #d0904a;
+  text-decoration: underline dotted;
+  text-underline-offset: 2px;
+}
+
+a:visted {
+  color: #4c3024;
+  text-decoration: underline dotted;
+  text-underline-offset: 2px;
+
+}
+
+
+.button {
+  font-family: 'Lemonada', cursive;
+  font-size: 16px;
+  display: block;
+  position: absolute;
+  left: 730px;
+  top: 540px;
+}
