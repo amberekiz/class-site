@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #fadbc7
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-family: 'Urbanist', sans-serif;
+  font-size: 50px;
+  position: relative;
+  left: 700px;
+  top: 250px;
+  color: #6c4334;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  left: 700px;
+  top: 250px;
+  color: #6c4334;
+
+}
+
+.first {
+
+}

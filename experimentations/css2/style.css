@@ -18,7 +18,7 @@ box-shadow: 5px 5px 5px salmon;
 .rotate {
   color: blue;
   display: inline-block;
-  transform: scale(4);
+  transform: translateX(50px);
 }
 
 @font-face {

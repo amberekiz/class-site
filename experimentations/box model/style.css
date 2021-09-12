@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  background: salmon;
+  margin: 50px 50px 50px 50px;
+  /* margin left, margin right, margin top, margin bottom */
+  border: 10px solid green;
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+}

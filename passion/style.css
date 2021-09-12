@@ -1,5 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
-  background-image:linear-gradient(#fadbc7, #fcf4e9);
+  background-image: linear-gradient(#fadbc7, #fcf4e9);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -11,7 +15,8 @@ img {
 h1 {
   font-size: 60px;
   text-align: center;
-  margin-bottom: 10px;
+  margin-top: 60px;
+  margin-bottom: 20px;
   font-family: 'Urbanist', sans-serif;
   color: #6c4334
 }
@@ -20,7 +25,7 @@ h1 {
   position: relative;
   width: 50%;
   display: block;
-  left: 300px;
+  margin: 0 auto;
 }
 
 .leaf-img {
@@ -28,9 +33,7 @@ h1 {
   top: 0;
   left: 0;
   width: 80%;
-
 }
-
 
 p {
   font-family: 'Roboto', sans-serif;
