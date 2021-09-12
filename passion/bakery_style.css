@@ -14,20 +14,18 @@ h1 {
   font-family: 'Urbanist', sans-serif;
   font-size: 50px;
   position: relative;
-  left: 700px;
-  top: 250px;
+  text-align: center;
   color: #6c4334;
 }
 
 p {
   font-family: 'Roboto', sans-serif;
-  position: relative;
-  left: 700px;
-  top: 250px;
   color: #6c4334;
-
 }
 
-.first {
-
+.paragraph {
+  width: 45%;
+  align: center;
+  text-align: left;
+  margin: auto;
 }
