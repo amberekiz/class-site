@@ -49,5 +49,6 @@ p {
 }
 
 .container {
+  min-width: 1400px;
   margin: auto auto;
 }
