@@ -47,3 +47,8 @@ p {
   color: #6c4334;
   letter-spacing: 4px;
 }
+
+.container {
+  min-width: 1080px;
+  margin: auto auto;
+}
