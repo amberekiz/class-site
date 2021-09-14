@@ -5,6 +5,10 @@
 
 
 html {
+  min-width: 1080px;
+  width: 1080px;
+  height: 1920px;
+  position: fixed;
   background-color: #fcf4e9;
   background-image: linear-gradient(#fadbc7, #fcf4e9);
   background-repeat: no-repeat;
