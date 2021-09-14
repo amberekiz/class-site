@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  cursor: crosshair;
+}
+
+html {
+  background-color: #fcf4e9
+}
+
+
+img {
+  max-width: 100%;
+}
+
+.cake-img {
+  width: 30%;
+  display: block;
+  position: relative;
+  top: 80px;
+  left: 860px;
+  filter: drop-shadow(-30px 40px 0px #dead94);
+}
+
+h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 80px;
+  color: #4c3024;
+  display: block;
+  position: absolute;
+  left: 150px;
+  top: 30px;
+  letter-spacing: 2px;
+  line-height: 80px;
+}
+
+
+.text1 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  color: #4c3024;
+  font-size: 20px;
+  display: block;
+  position: absolute;
+  top: 280px;
+  left: 150px;
+}
+
+ul {
+  font-family: 'Lemonada', cursive;
+  color: #4c3024;
+}
+
+.parent {
+  display: block;
+  position: absolute;
+  top: 490px;
+  left: 150px;
+}
+
+.text2 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  color: #4c3024;
+  font-size: 20px;
+  display: block;
+  position: absolute;
+  top: 610px;
+  left: 150px;
+}
+
+.button {
+  font-family: 'Lemonada', cursive;
+  font-size: 16px;
+  display: block;
+  position: absolute;
+  left: 150px;
+  top: 720px;
+}
+
+a {
+  color: #4c3024;
+  text-decoration: underline dotted;
+  text-underline-offset: 2px;
+}
+
+a:hover {
+  color: #d0904a;
+  text-decoration: underline dotted;
+  text-underline-offset: 2px;
+}
+
+a:visted {
+  color: #4c3024;
+  text-decoration: underline dotted;
+  text-underline-offset: 2px;
+}

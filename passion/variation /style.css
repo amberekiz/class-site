@@ -2,7 +2,6 @@
   box-sizing: border-box;
 }
 
-
 html {
   background-color: #fcf4e9;
   background-image: linear-gradient(#f4d4c6 90%, #fcf4e9 10%);
@@ -13,7 +12,6 @@ html {
 img {
   max-width: 100%;
 }
-
 
 .bakery-img {
   width: 50%;
@@ -27,7 +25,7 @@ img {
   position: absolute;
   top: 0;
   left: 0;
-  width:50%;
+  width: 50%;
 }
 
 h1 {
@@ -70,9 +68,7 @@ a:visted {
   color: #4c3024;
   text-decoration: underline dotted;
   text-underline-offset: 2px;
-
 }
-
 
 .button {
   font-family: 'Lemonada', cursive;
