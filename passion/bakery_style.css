@@ -55,3 +55,8 @@ ul {
 body {
   padding-bottom: 50px;
 }
+
+.container {
+  min-width: 1080px;
+  margin: auto auto;
+}
