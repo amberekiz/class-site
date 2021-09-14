@@ -3,10 +3,17 @@
 }
 
 html {
+  height: 100%;
+  width: 100%;
   background-color: #fcf4e9;
   background-image: linear-gradient(#f4d4c6 90%, #fcf4e9 10%);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+body {
+  height: 100%;
+  width: 100%;
 }
 
 img {
@@ -35,8 +42,8 @@ h1 {
   color: #4c3024;
   display: block;
   position: absolute;
-  left: 720px;
-  top: 120px;
+  left: 50%;
+  top: 18%;
   letter-spacing: 2px;
   line-height: 95px;
 }
@@ -48,8 +55,8 @@ h1 {
   color: #4c3024;
   display: block;
   position: absolute;
-  left: 730px;
-  top: 410px;
+  left: 50%;
+  top: 52%;
 }
 
 a {
@@ -75,6 +82,6 @@ a:visted {
   font-size: 16px;
   display: block;
   position: absolute;
-  left: 730px;
-  top: 540px;
+  left: 50%;
+  top: 65%;
 }
