@@ -666,7 +666,7 @@ img {
 
 @keyframes size {
   0% {
-    transform: scale(.1);
+    transform: scale(0);
   }
 
   50% {
@@ -674,7 +674,7 @@ img {
   }
 
   100% {
-    transform: scale(.1);
+    transform: scale(0);
   }
 }
 
