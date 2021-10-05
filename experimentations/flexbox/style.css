@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  color: black;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  background: lightblue;
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar1 {
+  background: blanchedalmond;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.row-item {
+  background: ivory;
+  width: 100%;
+}
+
+.sidebar2 {
+  background: darkseagreen;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.col-item {
+  background: lavender;
+  height: 100px;
+  width: 100px
+}

@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  color: white;
+  animation-name: sunset;
+  animation-duration: 5s;
+  /*animation-iteration-count: infinite;*/
+  animation-direction: alternate-reverse;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+img {
+  max-width: 100%;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: white;
+  position: fixed;
+  top: 40%;
+  left: 42%;
+  /*animation-name: spin;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;*/
+}
+
+.box:hover {
+  animation-name: spin;
+  animation-duration: 10s;
+  animation-iteration-count: infinite
+}
+
+@keyframes sunset {
+  0% {
+    background: #FF8C00;
+  }
+  100% {
+    background: #6A5ACD;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg) scale(1);
+    background: #FFF5EE;
+    opacity:1;
+  }
+  50% {
+    transform: rotate(180deg) scale(10);
+    background: #000080;
+    opacity:0;
+  }
+  100% {
+    transform:rotate(360deg) scale(1);
+    background: #FFF5EE;
+    opacity:1
+  }
+}

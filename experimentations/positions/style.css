@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: black;
+  color: white;
+  height: 100%
+}
+
+img {
+  max-width: 100%;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  background: pink;
+  z-index: 10;
+  position: relative;
+}
+
+.relative {
+  position: relative;
+  background-color: blue;
+  top: 100px;
+  left: 100px;
+  z-index: 9;
+}
+
+.fixed {
+  background-color: green;
+  position: fixed;
+  top: 20px;
+  right: 50px;
+}
+
+.absolute {
+  background-color: yellow;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+.sticky {
+  background-color: purple;
+  position: sticky;
+  top: 40px;
+  left: 0;
+}
