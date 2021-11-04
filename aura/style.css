@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: #020202;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  font-family: 'Alegreya', serif;
+  color: white;
+  z-index: -1;
+  display: inline-block;
+  font-size: 24pt;
+  user-select: none;
+}
+
+.vivid {
+  position: fixed;
+  top: 30%;
+  left: 18%;
+  animation: blur 10s linear infinite;
+}
+
+.illusion {
+  position: fixed;
+  top: 70%;
+  right: 18%;
+  transform: scale(1, -1);
+animation: blur2 10s linear infinite;
+}
+
+#canvas1 {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#fog1, #fog2, #fog3 {
+  height: 100%;
+  position: absolute;
+  width: 200%;
+}
+
+.image1 {
+  float: left;
+  height: 100%;
+  width: 50%;
+}
+
+.image2 {
+  float: left;
+  height: 100%;
+  width: 50%;
+}
+
+#fog1 {
+  animation: fog1_opacity 10s linear infinite, foglayer_moveme 15s linear infinite;
+}
+
+#fog2, #fog3 {
+  animation: fog2_opacity 21s linear infinite, foglayer_moveme 13s linear infinite;
+}
+
+#fog1 .image1, #fog1 .image2 {
+  background: url("images/fog1.png") center center/cover no-repeat transparent;
+}
+
+#fog2 .image1, #fog2 .image2,
+#fog3 .image1, #fog3 .image2 {
+  background: url("images/fog2.png")center center/cover no-repeat transparent;
+}
+
+@keyframes blur {
+  0% {
+    filter: blur(1px);
+  }
+
+  50% {
+    filter: blur(10px);
+  }
+
+  75% {
+    filter: blur(2px);
+  }
+
+  100% {
+    filter: blur(1px);
+  }
+}
+
+@keyframes blur2 {
+  0% {
+    filter: blur(3px);
+  }
+
+  50% {
+    filter: blur(1px);
+  }
+
+  75% {
+    filter: blur(10px);
+  }
+
+  100% {
+    filter: blur(3px);
+  }
+}
+
+
+@keyframes fog1_opacity {
+  0% {
+    opacity: .1;
+  }
+
+  22% {
+    opacity: .5;
+  }
+
+  40% {
+    opacity: .28;
+  }
+
+  58% {
+    opacity: .4;
+  }
+
+  80% {
+    opacity: .16;
+  }
+
+  100% {
+    opacity: .1;
+  }
+}
+
+@keyframes fog2_opacity {
+  0% {
+    opacity: .5;
+  }
+
+  25% {
+    opacity: .2;
+  }
+
+  50% {
+    opacity: .1;
+  }
+
+  80% {
+    opacity: .3;
+  }
+
+  100% {
+    opacity: .5;
+  }
+}
+
+@keyframes fog3_opacity {
+  0% {
+    opacity: .8;
+  }
+
+  27% {
+    opacity: .2;
+  }
+
+  52% {
+    opacity: .6;
+  }
+
+  68% {
+    opacity: .3;
+  }
+
+  100% {
+    opacity: .8;
+  }
+}
+
+@keyframes foglayer_moveme {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: -100%;
+  }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 767px) {
+
+  #fog1 .image01, #fog1 .image02,
+  #fog2 .image01, #fog2 .image02,
+  #fog3 .image01, #fog3 .image02 {
+    width: 100%;
+  }
+}
