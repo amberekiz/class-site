@@ -12,6 +12,10 @@ img {
   max-width: 100%;
 }
 
+body{
+  cursor: grab;
+}
+
 p {
   font-family: 'Alegreya', serif;
   color: white;
