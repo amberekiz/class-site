@@ -76,11 +76,6 @@ h1 {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-position:center;
-  background-image: url("img/bg2.png");
-  background-attachment: fixed;
 }
 
 .container {
