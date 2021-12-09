@@ -12,7 +12,7 @@ img {
   max-width: 100%;
 }
 
-body{
+body {
   cursor: grab;
 }
 
@@ -23,6 +23,11 @@ p {
   display: inline-block;
   font-size: 24pt;
   user-select: none;
+}
+
+.wrapper{
+  width: 100vw;
+  height: 100vh;
 }
 
 .vivid {

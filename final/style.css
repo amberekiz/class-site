@@ -1,0 +1,338 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  background: #dcdee0;
+  scroll-behavior: smooth;
+}
+
+.scroll-down1 a {
+  text-decoration: none;
+  color: #707070;
+}
+
+.scroll-down2 a {
+  text-decoration: none;
+  color: #dcdee0;
+}
+
+section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+#sec1 {
+  background: #dcdee0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#sec2 {
+  background: #d93f3f;
+}
+
+#sec3 {
+  background-image: linear-gradient(#d93f3f, #dcdee0);
+}
+
+#sec4 {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#sec5 {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#sec7 {
+  position: relative;
+  background: #d93f3f;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title {
+  animation: pulse 8s ease-in-out infinite alternate;
+}
+
+h1 {
+  font-family: 'David Libre', serif;
+  color: #d93f3f;
+  font-size: 32px;
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #707070;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.scroll-down1 {
+  text-align: center;
+  color: #707070;
+  font-size: 20px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  cursor: pointer;
+  animation: bounce 2s infinite;
+}
+
+.scroll-down2 {
+  text-align: center;
+  color: #dcdee0;
+  font-size: 20px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  bottom: -800px;
+  cursor: pointer;
+  animation: bounce 2s infinite;
+}
+
+.white {
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #dcdee0;
+  font-size: 16px;
+}
+
+.header {
+  font-family: 'David Libre', serif;
+  color: #d93f3f;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.sub {
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #707070;
+  font-size: 16px;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 150px;
+}
+
+.intro-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+  padding: 100px;
+  inline-size: 700px;
+  line-height: 22px;
+}
+
+.photos {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.frame {
+  width: 300px;
+  padding: 20px;
+}
+
+.move1 {
+  position: absolute;
+  top: 60%;
+  left: 12%;
+}
+
+.move2 {
+  position: absolute;
+  top: 10%;
+  left: 35%;
+}
+
+.move3 {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+}
+
+.move4 {
+  position: absolute;
+  top: 60%;
+  right: 12%;
+}
+
+.move5 {
+  position: absolute;
+  top: 30%;
+  right: 10%;
+}
+
+.move6 {
+  position: absolute;
+  top: 68%;
+  right: 45%;
+}
+
+.move7 {
+  position: absolute;
+  top: 12%;
+  right: 27%;
+}
+
+.flower-button {
+  width: 150px;
+  cursor: pointer;
+}
+
+.flower-text {
+  display: none;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.flower1 {
+  animation-name: spin;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.flower2 {
+  animation-name: spin;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.flower3 {
+  animation-name: reverse;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.flower4 {
+  animation-name: reverse;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.flower5 {
+  animation-name: reverse;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.flower6 {
+  animation-name: spin;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.flower7 {
+  animation-name: reverse;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.clicker img {
+  position: absolute;
+  top: 500px;
+  left: 400px;
+  transform: translate(-50%, -50%);
+  width: 200px;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+
+  50% {
+    transform: scale(1.04);
+    opacity: 1;
+  }
+
+  60% {
+    transform: scale(1.04);
+    opacity: 1;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes bounce {
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes reverse {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(-360deg);
+  }
+}
