@@ -35,3 +35,68 @@ function typewriter()
 
 
 typewriter();
+
+var index = 0;
+var backgrounds = [];
+
+backgrounds[0] = "img/bg2.png";
+backgrounds[1] = "img/bg3.png";
+backgrounds[2] = "img/bg4.png";
+backgrounds[3] = "img/bg5.png";
+backgrounds[4] = "img/bg6.png";
+backgrounds[5] = "img/bg7.png";
+backgrounds[6] = "img/bg8.png";
+backgrounds[7] = "img/bg9.png";
+backgrounds[8] = "img/bg10.png";
+backgrounds[9] = "img/bg1.png";
+
+function changeBackground() {
+
+  $("#wrapper").fadeOut(500, function() {
+    $("#wrapper").css({
+      "background-image": "url('" + backgrounds[index] + "')"
+    });
+    $("#wrapper").fadeIn(500, function(){
+      if(index==0){
+    $("#test").text("slide1");
+  }
+  if(index==1){
+    $("#test").text("slide2");
+  }
+  if(index==2){
+    $("#test").text("slide3");
+  }
+  if(index==3){
+    $("#test").text("slide4");
+  }
+  if(index==4){
+    $("#test").text("slide5");
+  }
+  if(index==5){
+    $("#test").text("slide6");
+  }
+  if(index==6){
+    $("#test").text("slide7");
+  }
+  if(index==7){
+    $("#test").text("slide8");
+  }
+  if(index==8){
+    $("#test").text("slide9");
+  }
+  if(index==9){
+    $("#test").text("slide10");
+  }
+    });
+  });
+
+  index++;
+  if (index > backgrounds.length-1){
+    index = 0;
+  }
+
+}
+
+$(document).ready(function() {
+  setInterval(changeBackground, 10000);
+});
