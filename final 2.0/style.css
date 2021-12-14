@@ -13,15 +13,6 @@ img {
   max-width: 100%;
 }
 
-@font-face {
-  font-family: 'Karla';
-  src: url(karla.ttf);
-}
-
-@font-face {
-  font-family: 'Karla-Italic';
-  src: url(karla-italic.ttf);
-}
 
 #sec1 {
   min-height: 100vh;
@@ -95,7 +86,7 @@ h1 {
   display: block;
   margin: 1.5rem;
   font-size: 20px;
-  font-family: 'Karla-Italic', sans-serif;
+  font-family: 'Karla', sans-serif;
   color: #d93f3f;
   line-height: 25px;
 }
